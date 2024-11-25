@@ -51,13 +51,3 @@ Defines the `cidr` variable used for the VPC's CIDR block (`10.0.0.0/16`).
 
 ### 4. `userdata_subnet1.sh` and `userdata_subnet2.sh`
 These scripts are used to install Apache2 on EC2 instances and serve a simple HTML page with the instance's ID and a custom message for each subnet.
-
-## Usage
-
-1. **Install Terraform**:
-   Ensure you have Terraform installed. If not, you can download it from [Terraform's official website](https://www.terraform.io/downloads.html).
-
-2. **Configure AWS Credentials**:
-   Make sure your AWS credentials are set up. You can do this using the AWS CLI or environment variables:
-   ```bash
-   aws configure
