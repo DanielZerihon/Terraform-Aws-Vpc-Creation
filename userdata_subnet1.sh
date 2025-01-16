@@ -24,9 +24,8 @@ cat <<EOF > /var/www/html/index.html
   </style>
 </head>
 <body>
-  <h1>Terraform Project Server 1</h1>
-  <h2>Instance ID: <span style="color:green">$INSTANCE_ID</span></h2>
-  <p>Welcome to daniel subnet 1 Channel</p>
+  <h1>VPC Creation with Terraform - Server 1</h1>
+  <h2>Refresh and see the server number changed :)</h2>
   
 </body>
 </html>
